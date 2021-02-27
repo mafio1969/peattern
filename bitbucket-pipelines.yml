@@ -11,7 +11,7 @@ pipelines:
         - parallel:
               - step:
                     script:
-                        - docker-compose.yml
+                        - docker
                     services:
                         - docker
                     caches:

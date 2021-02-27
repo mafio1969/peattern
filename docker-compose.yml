@@ -33,7 +33,7 @@ services:
             - ./logs:/var/log/nginx
             - ./logs/xdebug:/var/log/xdebug
             - ./docker/php/:/usr/local/etc/php
-            - ./docker/php/ini/custom.ini:/usr/local/etc/php/conf.d/
+          #  - ./docker/php/ini/custom.ini:/usr/local/etc/php/conf.d/
         container_name: web
         ports:
             - "9000:9000"

@@ -11,7 +11,7 @@
   ],
   "require-dev": {
     "phpunit/phpunit": "*",
-    "phplint/phplint": "*"
+    "squizlabs/php_codesniffer": "*"
   },
   "autoload": {
     "psr-4": {
@@ -22,5 +22,9 @@
     "psr-4": {
       "App\\Tests\\": "tests/"
     }
-  }
+  },
+  "bin": [
+    "bin/phpcs",
+    "bin/phpcbf"
+  ]
 }

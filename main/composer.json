@@ -10,7 +10,8 @@
     }
   ],
   "require-dev": {
-    "phpunit/phpunit": "*"
+    "phpunit/phpunit": "*",
+    "phplint/phplint": "*"
   },
   "autoload": {
     "psr-4": {

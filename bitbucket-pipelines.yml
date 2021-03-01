@@ -21,7 +21,7 @@ pipelines:
                     script:
                         - cd main
                         - composer install
-                        -  ./vendor/bin/phpunit test
+                        -  ./vendor/bin/phpunit tests
                     caches:
                         - composer
               - step:

@@ -29,8 +29,8 @@ pipelines:
                     script:
                         - cd main
                         - composer install
-                        - .bin/phpcs --standard=PSR2 src -n
-                        - .bin/php-cs-fixer fix . --config=sf23 --dry-run -vv
+                        - ./vendor/bin/phpcs --standard=PSR2 src -n
+                        - ./vendor/bin/php-cs-fixer fix . --config=sf23 --dry-run -vv
                     caches:
                         - composer
 definitions:

@@ -1,3 +1,5 @@
+image: gitpod/workspace-full
+
 tasks:
   - init: docker-compose build
     command: 'echo "TODO: Replace with command to start project"'
